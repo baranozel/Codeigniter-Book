@@ -25,6 +25,6 @@ class Welcome extends CI_Controller {
 
 	public function kitaplar()
 	{
-		$this->load->view('kitaplar.php');
+		$this->load->view('books_v.php');
 	}
 }
