@@ -22,7 +22,8 @@
         <li><a href="services.html">Giriş Yap / Kaydol</a></li>
         
         <li><a href="<?php echo base_url("welcome/kitaplar"); ?>">Kitaplar</a></li>
-        <li><a href="contact.html">İletişim</a></li>
+        <li><a href="<?php echo base_url("welcome/iletisim"); ?>">İletişim</a></li>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>
