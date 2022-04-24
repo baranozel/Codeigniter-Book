@@ -1,4 +1,4 @@
-<section class="page-header services-header" data-parallax="scroll" data-image-src="images/header/blog-folding-img.jpg">
+<section class="page-header services-header" data-parallax="scroll" data-image-src="<?php echo base_url("assets/") ?>img/blog-folding-img.jpg">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
