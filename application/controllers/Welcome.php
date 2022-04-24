@@ -22,4 +22,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('kitap_v.php');
 	}
+
+	public function kitaplar()
+	{
+		$this->load->view('kitaplar.php');
+	}
 }
