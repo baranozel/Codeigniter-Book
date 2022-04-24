@@ -27,4 +27,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('books_v.php');
 	}
+
+	public function iletisim()
+	{
+		$this->load->view('contact_v.php');
+	}
 }
