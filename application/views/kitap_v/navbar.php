@@ -18,7 +18,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right menu">
-        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="<?php echo base_url(""); ?>">Anasayfa</a></li>
         <li><a href="services.html">Giriş Yap / Kaydol</a></li>
         
         <li><a href="<?php echo base_url("welcome/kitaplar"); ?>">Kitaplar</a></li>
