@@ -21,7 +21,7 @@
         <li><a href="index.html">Anasayfa</a></li>
         <li><a href="services.html">Giriş Yap / Kaydol</a></li>
         
-        <li><a href="blog.html">Kitaplar</a></li>
+        <li><a href="<?php echo base_url("welcome/kitaplar"); ?>">Kitaplar</a></li>
         <li><a href="contact.html">İletişim</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
