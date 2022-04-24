@@ -19,7 +19,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right menu">
         <li><a href="index.html">Anasayfa</a></li>
-        <li><a href="services.html">Giriş Yap</a></li>
+        <li><a href="services.html">Giriş Yap / Kaydol</a></li>
         
         <li><a href="blog.html">Kitaplar</a></li>
         <li><a href="contact.html">İletişim</a></li>
