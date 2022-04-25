@@ -9,6 +9,79 @@
           =========================-->
 
 
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+          </div> 
+
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div>
+                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
+                </div>
+              </div>
+            </div>
+          </div> 
+
+
           <!-- See All Post -->
           <div class="col-md-12">
             <div class="see-all-post text-center">
