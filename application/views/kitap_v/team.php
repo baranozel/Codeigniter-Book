@@ -1,6 +1,6 @@
   <!-- Team Sections
   =========================-->
-  <section class="team">
+  <section class="team ">
     <div class="container-fluid padding-0">
     <!-- Team title -->
     <div class="title text-center">

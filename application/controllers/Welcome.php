@@ -37,5 +37,15 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('login_v.php');
 	}
+
+	public function kayit()
+	{
+		$this->load->view('kayitol_v.php');
+	}
+
+	public function forgot()
+	{
+		$this->load->view('forgotpass_v.php');
+	}
 }
 
