@@ -32,5 +32,10 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('forgotpass_v.php');
 	}
+
+	public function book_detail()
+	{
+		$this->load->view('bookdetail_v.php');
+	}
 }
 

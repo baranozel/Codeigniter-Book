@@ -23,3 +23,4 @@
       /* Optional: Makes the sample page fill the window. */
     </style>
     <script src="<?php echo base_url("assets/") ?>js/modernizr.min.js"></script>
+    <script src="https://kit.fontawesome.com/8e17619af9.js" crossorigin="anonymous"></script>
