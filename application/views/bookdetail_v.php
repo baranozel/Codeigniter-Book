@@ -36,10 +36,9 @@
                     <div id="myTabContent" class="tab-content" style="background-color: rgb(48, 48, 48);">
                         <div class="tab-pane fade active in" id="more-information" style="background-color: rgb(48, 48, 48);">
                             <br />
-                            <strong><h4>Description Title</h4></strong>
+                            <strong><h4>Kitap Açıklaması</h4></strong>
                             <p><h5>
-                                Integer egestas, orci id condimentum eleifend, nibh nisi pulvinar eros, vitae ornare massa neque ut orci. Nam aliquet lectus sed odio eleifend, at iaculis dolor egestas. Nunc elementum pellentesque augue
-                                sodales porta. Etiam aliquet rutrum turpis, feugiat sodales ipsum consectetur nec.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, optio libero quos, pariatur quas eveniet, minima minus culpa cum deserunt rerum distinctio saepe qui! Ratione velit eligendi obcaecati distinctio tenetur?
                                 </h5>
                             </p>
                         </div>
@@ -52,7 +51,7 @@
                 <hr />
 
                 <h1 class="price-container">
-                    $129.54
+                    ₺70.00
 
                 </h1>
 
@@ -62,7 +61,7 @@
 
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-6">
-                        <a href="javascript:void(0);" class="btn btn-success btn-lg">Add to cart ($129.54)</a>
+                        <a href="javascript:void(0);" class="btn btn-success btn-lg">Satın Al</a>
                     </div>
 
                 </div>
@@ -70,6 +69,80 @@
         </div>
     </div>
     <!-- end product -->
+
+    <div class="title text-center">
+          <h2>Önerilen Kitaplar</h2>
+        </div>
+
+
+    <div class="row">
+          <div class="row product-list">
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
+
+
+
+
+
+    
 </div>
 
 
