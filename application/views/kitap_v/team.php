@@ -1,12 +1,12 @@
   <!-- Team Sections
   =========================-->
-  <section class="team ">
+  <section class="team">
     <div class="container-fluid padding-0">
     <!-- Team title -->
     <div class="title text-center">
       <h2>Ekibimiz</h2>
     </div>
-    <div class="col-md-4 col-lg-3 padding-0">
+    <div class="col-md-4 col-lg-4 padding-0">
       <div class="team-member">
         <div class="th-mouse-effect">
           <div class="team-img">
@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 col-lg-3 padding-0">
+    <div class="col-md-4 col-lg-4 padding-0">
       <div class="team-member">
         <div class="th-mouse-effect">
           <div class="team-img">
@@ -54,7 +54,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 col-lg-3 padding-0">
+    <div class="col-md-4 col-lg-4 padding-0">
       <div class="team-member">
         <div class="th-mouse-effect">
           <div class="team-img">

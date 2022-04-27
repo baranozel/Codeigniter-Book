@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="title text-center">
-          <h2>Our Blog</h2>
+        <h2>Kitaplar</h2>
         </div>
        
           <!-- Blog Left Sections 
@@ -36,10 +36,10 @@
                     <div class="panel-body text-center">
                         <h4>
                             <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
-                                Leopard Shirt Dress
+                                Harry Potter Felsefe Taşı
                             </a>
                         </h4>
-                        <p class="price">$300.00</p>
+                        <p class="price">₺70.00</p>
                     </div>
                 </section>
             </div>
@@ -56,31 +56,10 @@
                     <div class="panel-body text-center">
                         <h4>
                             <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
-                                Leopard Shirt Dress
+                                Harry Potter Felsefe Taşı
                             </a>
                         </h4>
-                        <p class="price">$300.00</p>
-                    </div>
-                </section>
-            </div>
-
-
-            <div class="col-md-4">
-                <section class="panel">
-                    <div class="pro-img-box">
-                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
-                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
-                        <i class="fa fa-shopping-cart"></i>
-                        </a>
-                    </div>
-
-                    <div class="panel-body text-center">
-                        <h4>
-                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
-                                Leopard Shirt Dress
-                            </a>
-                        </h4>
-                        <p class="price">$300.00</p>
+                        <p class="price">₺70.00</p>
                     </div>
                 </section>
             </div>
@@ -98,32 +77,14 @@
                     <div class="panel-body text-center">
                         <h4>
                             <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
-                                Leopard Shirt Dress
+                                Harry Potter Felsefe Taşı
                             </a>
                         </h4>
-                        <p class="price">$300.00</p>
+                        <p class="price">₺70.00</p>
                     </div>
                 </section>
             </div>
-            <div class="col-md-4">
-                <section class="panel">
-                    <div class="pro-img-box">
-                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
-                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
-                        <i class="fa fa-shopping-cart"></i>
-                        </a>
-                    </div>
 
-                    <div class="panel-body text-center">
-                        <h4>
-                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
-                                Leopard Shirt Dress
-                            </a>
-                        </h4>
-                        <p class="price">$300.00</p>
-                    </div>
-                </section>
-            </div>
 
             <div class="col-md-4">
                 <section class="panel">
@@ -137,10 +98,52 @@
                     <div class="panel-body text-center">
                         <h4>
                             <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
-                                Leopard Shirt Dress
+                                Harry Potter Felsefe Taşı
                             </a>
                         </h4>
-                        <p class="price">$300.00</p>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
                     </div>
                 </section>
             </div>
