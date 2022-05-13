@@ -2,84 +2,151 @@
     <div class="container">
       <div class="row">
         <div class="title text-center">
-          <h2>Our Blog</h2>
+        <h2>Kitaplar</h2>
         </div>
-        <div class="col-md-9">
+       
           <!-- Blog Left Sections 
-          =========================-->
+          =========================--> 
+        <div class="col-md-12">
 
+          <!-- Search 
+          =========================--> 
+          <div class="search widgets">
+                <form class="form-inline">
+                  <div class="form-group search-input">
+                    <input type="text" class="form-control" placeholder="Search ...">
+                  </div>
+                  <button type="submit" class="btn btn-default tf-search-btn"><i class="tf-search"></i></button>
+                </form>
+              </div>
 
+                  <!-- Kitaplar 
+          =========================--> 
           <div class="row">
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
-            </div>
-          </div> 
+          <div class="row product-list">
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
 
-          <div class="row">
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
             </div>
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
-            </div>
-          </div> 
 
-          <div class="row">
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
             </div>
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
             </div>
-            <div class="column">
-              <div class="card">
-                <div>
-                  <img src="<?php echo base_url("assets/"); ?>img/hp.jpg" class="resim">
-                </div>
-              </div>
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
             </div>
-          </div> 
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="col-md-4">
+                <section class="panel">
+                    <div class="pro-img-box">
+                        <img src="<?php echo base_url("assets/") ?>img/hp.jpg" alt="" />
+                        <a href="<?php echo base_url("welcome/book_detail"); ?>" class="adtocart">
+                        <i class="fa fa-shopping-cart"></i>
+                        </a>
+                    </div>
+
+                    <div class="panel-body text-center">
+                        <h4>
+                            <a href="<?php echo base_url("welcome/book_detail"); ?>" class="pro-title">
+                                Harry Potter Felsefe Taşı
+                            </a>
+                        </h4>
+                        <p class="price">₺70.00</p>
+                    </div>
+                </section>
+            </div>
 
 
           <!-- See All Post -->
@@ -89,33 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <!-- Blog Right Sections 
-          =========================-->
-          	<div class="blog-sidbar">
-		<div class="search widgets">
-			<form class="form-inline">
-			  <div class="form-group search-input">
-			    <input type="text" class="form-control" placeholder="Search ...">
-			  </div>
-			  <button type="submit" class="btn btn-default tf-search-btn"><i class="tf-search"></i></button>
-			</form>
-		</div>
-		<div class="categories widgets">
-			<div class="list-group text-center">
-				<div class="list-group-item active"> Blog Categories </div>
-				<a href="#" class="list-group-item">Web Design</a>
-				<a href="#" class="list-group-item">User Interface</a>
-				<a href="#" class="list-group-item">User Experience</a>
-				<a href="#" class="list-group-item">Typography</a>
-				<a href="#" class="list-group-item">Color Sense</a>
-				<a href="#" class="list-group-item">Future Trend</a>
-				<a href="#" class="list-group-item">Modern Design</a>
-			</div>
-		</div>
 
-	</div>
-        </div>
 
       </div>
     </div>
