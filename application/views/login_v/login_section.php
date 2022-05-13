@@ -19,14 +19,14 @@
                                 </p>
                             </div>
                         </div>
-                        <form action="#" class="signin-form">
+                        <form action="<?php echo base_url('login/logindata');?>" class="signin-form" method="POST">
                             <div class="form-group mb-3">
-                                <label class="label" for="name">Kullanıcı Adı</label>
-                                <input type="text" class="form-control" placeholder="Username" required>
+                                <label class="label" for="name">E-posta</label>
+                                <input name="email" type="text" class="form-control" placeholder="E-posta" required>
                             </div>
                             <div class="form-group mb-3">
                                 <label class="label" for="password">Şifre</label>
-                                <input type="password" class="form-control" placeholder="Password" required>
+                                <input name="password" type="password" class="form-control" placeholder="Şifre" required>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="form-control btn btn-primary rounded submit px-3">Giriş Yap</button>

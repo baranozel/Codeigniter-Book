@@ -10,7 +10,7 @@
 <div class="login-wrap p-4 p-md-5">
 <div class="d-flex">
 <div class="w-100">
-<h3 class="mb-4">KAYIT OL</h3>
+<h3 class="mb-4">PROFİLİM</h3>
 </div>
 <div class="w-100">
 <p class="social-media d-flex justify-content-end">
@@ -19,27 +19,25 @@
 </p>
 </div>
 </div>
-<form action="<?php echo base_url('register/registerdata');?>" method ="POST" class="signin-form">
+<form action="<?php echo base_url('profile/profiledata');?>" method ="POST" class="signin-form">
     <div class="form-group mb-3">
-<label class="label" for="name">AD</label>
-    <input name="adi" type="text" class="form-control" placeholder="Adınız" required>
-</div>
 <div class="form-group mb-3">
-<label class="label" for="name">SOYAD</label>
-    <input name="soyadi" type="text" class="form-control" placeholder="Soyadınız" required>
-</div>
-<div class="form-group mb-3">
-<label class="label" for="EMAIL">EMAIL</label>
+<label class="label" for="EMAIL">Yeni E-posta</label>
     <input name="eposta" type="text" class="form-control" placeholder="E-posta" required>
 </div>
 
 <div class="form-group mb-3">
-<label class="label" for="password">ŞİFRE BELİRLE</label>
-    <input name="sifre" type="password" class="form-control" placeholder="Şifre" required>
+<label class="label" for="password">Yeni Şifre</label>
+    <input name="sifre" type="password" class="form-control" placeholder="Yeni Şifre">
+</div>
+<p>Şifrenizi değiştirmek istemiyorsanız boş bırakınız.</p>
+<div class="form-group">
+    <button type="submit" class="form-control btn btn-primary rounded submit px-3">Güncelle</button>
 </div>
 <div class="form-group">
-<button type="submit" class="form-control btn btn-primary rounded submit px-3">KAYIT OL</button>
+    <button onclick="window.location.href='<?php echo base_url('logout');?>'" class="form-control btn btn-primary rounded submit px-3">Çıkış Yap</button>
 </div>
+
 <div class="form-group d-md-flex">
 </form>
 </section>
